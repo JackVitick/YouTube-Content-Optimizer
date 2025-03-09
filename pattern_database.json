@@ -1,0 +1,205 @@
+{
+    "productivity": {
+        "title_patterns": [
+            {
+                "pattern": "How I {action} to {positive_outcome}",
+                "ctr_score": 0.87
+            },
+            {
+                "pattern": "{number} {tools/methods} to {goal} in {timeframe}",
+                "ctr_score": 0.83
+            },
+            {
+                "pattern": "The {adjective} Way to {achieve_goal} | {secondary_benefit}",
+                "ctr_score": 0.79
+            }
+        ],
+        "script_patterns": {
+            "hook_types": [
+                "problem_statement",
+                "surprising_fact",
+                "personal_story",
+                "direct_question"
+            ],
+            "optimal_structure": [
+                "hook",
+                "problem",
+                "solution_overview",
+                "detailed_steps",
+                "results",
+                "cta"
+            ],
+            "retention_markers": [
+                {
+                    "position": "0-15s",
+                    "element": "hook_statement",
+                    "importance": "critical"
+                },
+                {
+                    "position": "1min",
+                    "element": "intrigue_point",
+                    "importance": "high"
+                },
+                {
+                    "position": "midpoint",
+                    "element": "value_revelation",
+                    "importance": "high"
+                },
+                {
+                    "position": "75%",
+                    "element": "unexpected_insight",
+                    "importance": "medium"
+                }
+            ]
+        },
+        "thumbnail_patterns": {
+            "color_schemes": [
+                "blue/orange",
+                "dark/light contrast",
+                "minimalist with pop color"
+            ],
+            "elements": [
+                "before/after",
+                "tools/systems",
+                "results visualization",
+                "emotional reaction"
+            ]
+        }
+    },
+    "health_fitness": {
+        "title_patterns": [
+            {
+                "pattern": "I Tried {fitness_method} for {timeframe} | Here's What Happened",
+                "ctr_score": 0.89
+            },
+            {
+                "pattern": "{number} Ways to {health_goal} Without {common_obstacle}",
+                "ctr_score": 0.85
+            },
+            {
+                "pattern": "How to {health_action} Like a {expert_type} | {timeframe} Plan",
+                "ctr_score": 0.82
+            }
+        ],
+        "script_patterns": {
+            "hook_types": [
+                "transformation_reveal",
+                "health_myth_debunk",
+                "unexpected_result",
+                "relatable_struggle"
+            ],
+            "optimal_structure": [
+                "hook",
+                "personal_context",
+                "method_explanation",
+                "implementation",
+                "results",
+                "scientific_basis",
+                "cta"
+            ],
+            "retention_markers": [
+                {
+                    "position": "0-15s",
+                    "element": "visual_hook",
+                    "importance": "critical"
+                },
+                {
+                    "position": "1min",
+                    "element": "challenge_reveal",
+                    "importance": "high"
+                },
+                {
+                    "position": "midpoint",
+                    "element": "progress_update",
+                    "importance": "high"
+                },
+                {
+                    "position": "75%",
+                    "element": "results_reveal",
+                    "importance": "critical"
+                }
+            ]
+        },
+        "thumbnail_patterns": {
+            "color_schemes": [
+                "energetic red/white",
+                "green/black wellness",
+                "bright transformation colors"
+            ],
+            "elements": [
+                "before/after",
+                "progress_tracking",
+                "comparison visual",
+                "achievement_highlight"
+            ]
+        }
+    },
+    "ai_tech": {
+        "title_patterns": [
+            {
+                "pattern": "I Built an AI that {impressive_action} | Here's How",
+                "ctr_score": 0.91
+            },
+            {
+                "pattern": "{tool_name}: The AI {tool_type} That Will {benefit}",
+                "ctr_score": 0.84
+            },
+            {
+                "pattern": "How to Use {ai_tool} to {productivity_goal} | Step-by-Step Guide",
+                "ctr_score": 0.82
+            }
+        ],
+        "script_patterns": {
+            "hook_types": [
+                "demo_result",
+                "future_implications",
+                "problem_solved",
+                "accessibility_statement"
+            ],
+            "optimal_structure": [
+                "hook",
+                "problem_context",
+                "technical_overview",
+                "demonstration",
+                "practical_application",
+                "future_potential",
+                "cta"
+            ],
+            "retention_markers": [
+                {
+                    "position": "0-15s",
+                    "element": "capability_demo",
+                    "importance": "critical"
+                },
+                {
+                    "position": "1min",
+                    "element": "technical_insight",
+                    "importance": "medium"
+                },
+                {
+                    "position": "midpoint",
+                    "element": "impressive_demonstration",
+                    "importance": "high"
+                },
+                {
+                    "position": "75%",
+                    "element": "practical_application",
+                    "importance": "high"
+                }
+            ]
+        },
+        "thumbnail_patterns": {
+            "color_schemes": [
+                "tech blue/black",
+                "futuristic dark/accent",
+                "clean interface colors"
+            ],
+            "elements": [
+                "tool interface",
+                "result visualization",
+                "before/after",
+                "reaction shot"
+            ]
+        }
+    }
+}
